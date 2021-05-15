@@ -15,3 +15,4 @@ vndbinder_use(hal_power_stats)
 add_service(hal_power_stats_server, power_stats_service)
 
 allow hal_power_stats_default sysfs:dir { open read };
+allow hal_power_stats_default sysfs:file { read };
