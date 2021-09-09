@@ -20,3 +20,24 @@
 
   <style name="PreferenceTheme" parent="@android:style/Theme.DeviceDefault.Settings" />
 </resources>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <style name="Theme.Main" parent="@android:style/Theme.DeviceDefault.Settings">
+       <item name="android:windowBackground">@*android:color/monet_background_device_default</item>
+       <item name="android:navigationBarColor">@*android:color/monet_background_device_default</item>
+   </style> 
+
+   <style name="Theme.Main.PreferenceCategoryStyle" parent="@*android:style/Preference.DeviceDefault.Category">
+       <item name="android:layout">@layout/dot_preference_category</item>
+   </style>
+
+   <style name="Theme.Main.PreferenceStyle" parent="@*android:style/Preference.DeviceDefault">
+       <item name="allowDividerBelow">false</item>
+       <item name="android:iconSpaceReserved">false</item>
+       <item name="iconSpaceReserved">false</item>
+   </style>           
+    
+   <style name="Theme.Main.PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
+       <item name="android:iconSpaceReserved">false</item>
+       <item name="iconSpaceReserved">false</item>
+   </style>    

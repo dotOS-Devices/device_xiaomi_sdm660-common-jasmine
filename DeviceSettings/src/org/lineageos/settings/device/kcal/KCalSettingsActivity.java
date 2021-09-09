@@ -22,10 +22,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import org.lineageos.settings.MonetPreferenceActivity;
 
 import org.lineageos.settings.device.R;
 
 public class KCalSettingsActivity extends Activity implements Utils {
+ public class KcalSettingsActivity extends MonetPreferenceActivity {    
 
     private KCalSettings mKCalSettingsFragment;
 
